@@ -1,6 +1,6 @@
 defmodule XT.Pid do
   @moduledoc """
-  PID utilities
+  PID Utilities
 
   Convert `pid()` to `string`, `tuple`, or `list`.any()
   """
