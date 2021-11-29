@@ -1,6 +1,5 @@
 # XT
 
-
 [![Module Version](https://img.shields.io/hexpm/v/xt.svg)](https://hex.pm/packages/xt)
 [![Hex Docs](https://img.shields.io/badge/hex-docs-lightgreen.svg)](https://hexdocs.pm/xt)
 [![Total Download](https://img.shields.io/hexpm/dt/xt.svg)](https://hex.pm/packages/libcluster)
@@ -21,7 +20,8 @@ def deps do
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/xt](https://hexdocs.pm/xt).
+## Release
 
+Publish to hex.pm
+
+    mix hex.publish

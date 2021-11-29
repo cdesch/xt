@@ -12,7 +12,6 @@ defmodule XT.MixProject do
       package: package(),
       source_url: "https://github.com/cdesch/xt",
       homepage_url: "https://github.com/cdesch/xt",
-
     ]
   end
 
@@ -36,16 +35,16 @@ defmodule XT.MixProject do
 
 
   defp description() do
-    "A few sentences (a paragraph) describing the project."
+    "This library provides general Elixir Utilities and Tools, such as `pid` conversion... and more to come.    "
   end
 
   defp package() do
     [
       # This option is only needed when you don't want to use the OTP application name
-      name: "ex_tool_chest",
+      name: "xt",
       # These are the default files included in the package
       licenses: ["MIT"],
-      links: %{"GitHub" => "https://github.com/cdesch/ex_tool_chest"}
+      links: %{"GitHub" => "https://github.com/cdesch/xt"}
     ]
   end
 end
