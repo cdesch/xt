@@ -10,9 +10,9 @@ defmodule XT.PidTest do
     assert XT.Pid.pid_to_string(sample_pid) == "0.300.0"
   end
 
-  test "pid_to_string_erl/1" do
+  test "pid_to_string_legacy/1" do
     sample_pid = IEx.Helpers.pid(0, 3, 0)
-    assert XT.Pid.pid_to_string_erl(sample_pid) == "0.3.0"
+    assert XT.Pid.pid_to_string_legacy(sample_pid) == "0.3.0"
   end
 
   test "pid_to_tuple/1" do
