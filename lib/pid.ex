@@ -22,6 +22,14 @@ defmodule XT.Pid do
       |> String.trim(">")
   end
 
+  @spec pid_to_string_erl(pid()) :: String.t()
+  def pid_to_string_erl(pid) do
+    :erlang.pid_to_list(pid)
+      |> to_string()
+      |> String.slice(1..-2)
+  end
+
+
   @doc """
   Convert a pid to a list
 
