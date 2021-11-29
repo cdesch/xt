@@ -15,7 +15,7 @@ You can find supporting documentation [here](https://hexdocs.pm/xt).
 ```elixir
 def deps do
   [
-    {:xt, "~> 0.1.0"}
+    {:xt, "~> 0.1.1"}
   ]
 end
 ```

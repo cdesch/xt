@@ -1,18 +1,8 @@
 defmodule XT do
   @moduledoc """
   Documentation for `XT`.
+
+  XT, aka "Elixir Tools", is a set of common utility functions.
   """
 
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> XT.hello()
-      :world
-
-  """
-  def hello do
-    :world
-  end
 end
